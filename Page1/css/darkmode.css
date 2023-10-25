@@ -1,0 +1,32 @@
+body {
+    background-color: var(--colour-body);
+}
+h1, h2, h3, h4, p {
+    color: var(--colour-font-primary);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+code {
+    color: var(--colour-font-auxillary);
+}
+
+:root {
+    --colour-body: ;
+    --colour-font-primary: #000000;
+    --colour-font-secondary: 
+    --colour-font-auxillary: #333333;
+    
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --colour-body:
+        --colour-font-primary:
+        --colour-font-secondary:
+        --colour-font-auxillary:
+    }
+}
