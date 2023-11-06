@@ -1,0 +1,34 @@
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+}
+
+#nav1{
+    display: flex;
+    align-items: center;
+}
+
+
+#nav2{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    margin-left: 15%;
+}
+h1{
+    font-size: 55px;
+}
+
+footer{
+    background-color: orange;
+    display: flex;
+}
+
+.fotsec{
+    display: flex;
+    flex-direction: column;
+}
