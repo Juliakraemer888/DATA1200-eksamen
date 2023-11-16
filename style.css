@@ -1,3 +1,7 @@
+html, button{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 body{
     margin: 0px;
 }
@@ -22,14 +26,41 @@ h1{
     grid-row: 1;
     background-color: #ff8404;
 }
+
     .logo{
         grid-column: 1;
         grid-row: 1;
     }
+
+    .buttonleft{
+        grid-column: 3/4;
+        grid-row: 1;
+        padding-top: 30px;
+    }
+
+    .buttonmiddleleft{
+        grid-column: 5/6;
+        grid-row: 1;
+        padding-top: 30px;
+    }
+
+    .buttonmiddleright{
+        grid-column: 7/8;
+        grid-row: 1;
+        padding-top: 30px;
+    }
+
+    .buttonright{
+        grid-column: 9/10;
+        grid-row: 1;
+        padding-top: 30px;
+    }
+
 .main-box{
     grid-column: 3/8;
     grid-row: 2;
 }
+
 .aside{
     grid-column: 8/11;
     grid-row: 2;
@@ -40,8 +71,35 @@ h1{
     background-color: #ff8404;
 }
 
+/* footer tingene her */
+.footerleft{
+    grid-column: 2/5;
+    grid-row: 4/6;
+    margin-left: 70px;
+}
+
+.footermiddle{
+    grid-column: 5/8;
+    grid-row: 4/6;
+    margin-left: 300px;
+}
+
+.footerdef{ /*defining the footers layout here*/
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.buttondef{
+    border: none;
+    display: inline-block;
+    background-color: #ff8404;
+    font-size: 30px;
+}
+
 #logo{
     width: 90px;
     padding-top: 20px;
-    padding-left: 15px;
+    padding-left: 15px; 
 }
+
+
