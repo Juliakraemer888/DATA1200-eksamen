@@ -30,6 +30,16 @@ h1{
     font-size: 50px;
 }
 
+/* To make the headings same size*/
+h2, h3, h4{
+    font-size: 25px;
+}
+
+/* To make sub title little*/
+h5{
+    font-size: 10px;
+}
+
 /* To make the picture centered in the page*/
 #Kitty{
     display: block;
@@ -40,6 +50,12 @@ h1{
 
 /* To make the list centered*/
 li{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
