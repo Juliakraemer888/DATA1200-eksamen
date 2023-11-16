@@ -16,6 +16,11 @@ nav{
 .nav-text{
     text-decoration:solid;
     color:beige;
+    padding: 10px;
+}
+.nav-text:hover{
+    background-color: darkgray;
+    padding: 1rem;
 }
 h1{
     font-size: 55px;
