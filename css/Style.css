@@ -25,6 +25,11 @@ nav{
     padding: 1rem;
 }
 
+/* To make heading big */
+h1{
+    font-size: 50px;
+}
+
 /* To make the picture centered in the page*/
 #Kitty{
     display: block;
