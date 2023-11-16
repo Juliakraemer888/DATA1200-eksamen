@@ -4,6 +4,8 @@ html, button{
 
 body{
     margin: 0px;
+    background-color: rgb(30, 30, 60); /*!!!CHANGE OR REMOVE BG COLOR AFTER MERGING!!!*/
+    color: azure;
 }
 
 footer{
