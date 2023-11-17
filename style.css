@@ -21,6 +21,7 @@ h1{
     grid-auto-rows: minmax(80px, auto);
     margin-left: 0cap;
 }
+
 .nav{
     grid-column: 1/13;
     grid-row: 1;
@@ -97,9 +98,32 @@ h1{
 }
 
 #logo{
+    /*
     width: 90px;
     padding-top: 20px;
     padding-left: 15px; 
+    */
+    width: 70%;
+    margin-left: 40%;
+    padding-top: 18%;
+}
+
+.main-box img{
+    width: 100%;
+}
+
+.bildeMedTekst p{
+    margin-top: 0;
+    border-top: 0;
+    padding-top: 0;
+    font-size: 80%;
+}
+
+.dobbeltBilde{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
+    margin-bottom: 10%;
 }
 
 
