@@ -14,6 +14,7 @@ nav{
 
 nav p{
     margin-top: 10%;
+    font-size: 2vw;
 }
 
 nav img{
@@ -46,6 +47,10 @@ main img{
 #box1{
     margin-right: 5%;
 }
+
+    #box1 h1{
+        font-size: 3vw;
+    }
     .breadText{
         line-height: 150%;
     }
@@ -54,7 +59,7 @@ main img{
         margin-top: 0;
         border-top: 0;
         padding-top: 0;
-        font-size: 80%;
+        font-size: 1vw;
     }
 
     .dobbeltBilde{
@@ -78,6 +83,7 @@ main img{
     }
     .menu h1{
         text-align: center;
+        font-size: 2.2vw;
     }
 
     .menu p{
