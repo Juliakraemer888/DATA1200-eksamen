@@ -15,6 +15,8 @@ h1{
     font-size: 55px;
 }
 
+/* definerer kanten (boksen) her*/
+
 .wrapper{
     display: grid;
     grid-template-columns: minmax(20px, 100px) repeat(10,1fr) 100px;
@@ -62,6 +64,8 @@ h1{
     grid-row: 2;
 }
 
+/* boksen her*/
+
 .aside{
     grid-column: 8/11;
     grid-row: 2;
@@ -73,6 +77,7 @@ h1{
 }
 
 /* footer tingene her */
+
 .footerleft{
     grid-column: 2/5;
     grid-row: 4/6;
@@ -82,7 +87,7 @@ h1{
 .footermiddle{
     grid-column: 5/8;
     grid-row: 4/6;
-    margin-left: 300px;
+    margin-left: 60%;
 }
 
 .footerdef{ /*defining the footers layout here*/
@@ -126,5 +131,9 @@ h1{
     margin-bottom: 10%;
 }
 
+.breadText{
+    line-height: 150%;
+    font-size: 130%;
+}
 
 /*orange color=#ff8404*/
