@@ -32,7 +32,7 @@ nav a:hover{
 }
 
 main{
-    margin-left: 13%;
+    margin-left: 9%;
     margin-right: 8%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -80,14 +80,22 @@ main img{
     .menu{
         border: solid;
         border-radius: 15px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
     .menu h1{
         text-align: center;
         font-size: 2.2vw;
+        grid-column: span 2;
+    }
+
+    .menu h4{
+        margin-left: 20%;
+        margin-right: 5%;
     }
 
     .menu p{
-        margin-left: 10%;
+        margin-left: 20%;
         margin-right: 5%;
     }
 
