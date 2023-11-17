@@ -77,9 +77,28 @@ footer{
 }
 
 #banner-img-p32{
-    border-width: 8px;
-    padding-left: 7%;
-    padding-right: 7%;
-    padding-bottom: 16px;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
 
 }
+
+div.introduction { /*article css from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article */
+    margin: 5%;
+    padding: 0.3rem;
+    background-color: #eee;
+  }
+  
+div.introduction > h1,
+  .intro-content {
+    margin: 0.5rem;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+  }
+  
+  div.intro-content > h2,
+  .intro-content > p {
+    margin: 0.2rem;
+    font-size: 1rem;
+  }
+  
