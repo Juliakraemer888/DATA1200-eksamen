@@ -1,139 +1,101 @@
-html, button{
-    font-family: 'Times New Roman', Times, serif;
-}
-
 body{
-    margin: 0px;
+    margin: 0;
 }
 
-footer{
-    
-    margin-left: 0px;
-}
-
-h1{
-    font-size: 55px;
-}
-
-/* definerer kanten (boksen) her*/
-
-.wrapper{
+nav{
+    text-align: center;
     display: grid;
-    grid-template-columns: minmax(20px, 100px) repeat(10,1fr) 100px;
-    grid-auto-rows: minmax(80px, auto);
-    margin-left: 0cap;
-}
-
-.nav{
-    grid-column: 1/13;
-    grid-row: 1;
+    grid-template-columns: repeat(5, 1fr);
     background-color: #ff8404;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 2%;
 }
 
-    .logo{
-        grid-column: 1;
-        grid-row: 1;
-    }
-
-    .buttonleft{
-        grid-column: 3/4;
-        grid-row: 1;
-        padding-top: 30px;
-    }
-
-    .buttonmiddleleft{
-        grid-column: 5/6;
-        grid-row: 1;
-        padding-top: 30px;
-    }
-
-    .buttonmiddleright{
-        grid-column: 7/8;
-        grid-row: 1;
-        padding-top: 30px;
-    }
-
-    .buttonright{
-        grid-column: 9/10;
-        grid-row: 1;
-        padding-top: 30px;
-    }
-
-.main-box{
-    grid-column: 3/8;
-    grid-row: 2;
+nav p{
+    margin-top: 10%;
 }
 
-/* boksen her*/
-
-.aside{
-    grid-column: 8/11;
-    grid-row: 2;
-}
-.footer{
-    grid-column: 1/13;
-    grid-row: 3/7;
-    background-color: #ff8404;
+nav img{
+    width: 30%;
+    margin-top: 3%;
 }
 
-/* footer tingene her */
-
-.footerleft{
-    grid-column: 2/5;
-    grid-row: 4/6;
-    margin-left: 70px;
+nav a{
+    text-decoration: none;
+    color: black;
 }
 
-.footermiddle{
-    grid-column: 5/8;
-    grid-row: 4/6;
-    margin-left: 60%;
+nav a:hover{
+    text-decoration: underline;
 }
 
-.footerdef{ /*defining the footers layout here*/
-    margin-top: 40px;
-    display: inline-block;
+main{
+    margin-left: 13%;
+    margin-right: 8%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5%;
 }
 
-.buttondef{
-    border: none;
-    display: inline-block;
-    background-color: #ff8404;
-    font-size: 30px;
-}
-
-#logo{
-    /*
-    width: 90px;
-    padding-top: 20px;
-    padding-left: 15px; 
-    */
-    width: 70%;
-    margin-left: 40%;
-    padding-top: 18%;
-}
-
-.main-box img{
+main img{
     width: 100%;
 }
 
-.bildeMedTekst p{
-    margin-top: 0;
-    border-top: 0;
-    padding-top: 0;
-    font-size: 80%;
-}
 
-.dobbeltBilde{
+#box1{
+    margin-right: 5%;
+}
+    .breadText{
+        line-height: 150%;
+    }
+
+    .bildeMedTekst p{
+        margin-top: 0;
+        border-top: 0;
+        padding-top: 0;
+        font-size: 80%;
+    }
+
+    .dobbeltBilde{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2%;
+        margin-bottom: 5%;
+    }
+
+#box2{
+    margin-top: 15%;
+    margin-bottom: 15%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2%;
-    margin-bottom: 10%;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5%;
 }
 
-.breadText{
-    line-height: 150%;
-    font-size: 130%;
+    .menu{
+        border: solid;
+        border-radius: 15px;
+    }
+    .menu h1{
+        text-align: center;
+    }
+
+    .menu p{
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+
+
+footer{
+    background-color: #ff8404;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 13%;
+    padding-right: 8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
-/*orange color=#ff8404*/
+    #footer1{
+        grid-column: span 2;
+    }
