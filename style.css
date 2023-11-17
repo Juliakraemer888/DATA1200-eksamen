@@ -115,10 +115,6 @@ footer{
     }
 
 
-
-
-
-
 /* Base code below from phind.com, but I´ts edited to make it our own/fit to our page*/
    
    /* Media queries for different screen sizes */
@@ -138,13 +134,14 @@ footer{
     }
     main {
         grid-template-columns: 1fr;
+        grid-gap: 0%;
     }
     #box2 {
         grid-template-rows: 1fr;
     }
 
     footer {
-        margin-top: 60%;
+        margin-top: 40%;
     }
  }
  
