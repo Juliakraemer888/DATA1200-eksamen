@@ -59,7 +59,6 @@ main img{
         margin-top: 0;
         border-top: 0;
         padding-top: 0;
-        font-size: 1vw;
     }
 
     .dobbeltBilde{
@@ -108,8 +107,89 @@ footer{
     padding-right: 8%;
     padding-top: 3%;
     padding-bottom: 3%;
+    margin-top: 5%;
 }
 
     #footer1{
         grid-column: span 2;
     }
+
+
+
+
+
+
+/* Base code below from phind.com, but I´ts edited to make it our own/fit to our page*/
+   
+   /* Media queries for different screen sizes */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    nav img {
+        width: 30%;
+    }
+
+    main img {
+        width: 100%;
+    }
+    
+    nav {
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    main {
+        grid-template-columns: 1fr;
+    }
+    #box2 {
+        grid-template-rows: 1fr;
+    }
+
+    footer {
+        margin-top: 60%;
+    }
+ }
+ 
+ @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* For tablets: */
+    nav img {
+        width: 35%;
+    }
+
+    main img {
+        width: 100%;
+    }
+
+    nav {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #box2 {
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    footer {
+        margin-top: 15%;
+    }
+ }
+ 
+ @media only screen and (min-width: 1025px) {
+    /* For desktop: */
+    nav img {
+        width: 37%;
+    }
+
+    main img {
+        width: 100%;
+    }
+
+    nav {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #box2 {
+        grid-template-rows: repeat(3, 1fr);
+    }
+ }
