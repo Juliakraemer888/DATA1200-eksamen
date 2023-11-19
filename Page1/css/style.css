@@ -1,7 +1,7 @@
 #banner-img-p32{
     margin-left: 10%;
     margin-right: 10%;
-    justify-content: center;
+    position: static;
 
 }
 
@@ -43,6 +43,10 @@ nav{
     margin-bottom: 2%;
     position: sticky;
 }
+.nav-text{
+    font-size: 2rem;
+    margin-top: 7%;
+}
 
 nav p{
     margin-top: 10%;
@@ -61,6 +65,7 @@ nav a{
 
 nav a:hover{
     text-decoration: underline;
+    
 }
 
 main{
