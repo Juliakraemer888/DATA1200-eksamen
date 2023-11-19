@@ -31,7 +31,7 @@ nav a:hover{
     text-decoration: underline;
 }
 
-main{
+#julia{
     margin-left: 9%;
     margin-right: 8%;
     display: grid;
@@ -39,7 +39,7 @@ main{
     grid-gap: 5%;
 }
 
-main img{
+#julia img{
     width: 100%;
 }
 
@@ -124,7 +124,12 @@ footer{
         width: 30%;
     }
 
-    main img {
+    #julia {
+        grid-template-columns: 1fr;
+        grid-gap: 0%;
+    }
+
+    #julia img {
         width: 100%;
     }
     
@@ -132,16 +137,22 @@ footer{
         grid-template-columns: repeat(3, 1fr);
         
     }
-    main {
-        grid-template-columns: 1fr;
-        grid-gap: 0%;
+
+    #box1 h1{
+        font-size: 7vw;
     }
+
     #box2 {
         grid-template-rows: 1fr;
     }
-
+    
+    nav p{
+        font-size: 3vw;
+    }
     footer {
         margin-top: 40%;
+        grid-gap: 10%;
+        /*teste ut mer typ margins etc for å se om det funker i liten*/
     }
  }
  
@@ -150,17 +161,22 @@ footer{
     nav img {
         width: 35%;
     }
+    #julia {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
-    main img {
+    #julia img {
         width: 100%;
     }
 
     nav {
         grid-template-columns: repeat(4, 1fr);
     }
-    main {
-        grid-template-columns: repeat(2, 1fr);
+
+    #box1 h1{
+        font-size: 4vw;
     }
+
     #box2 {
         grid-template-rows: repeat(2, 1fr);
     }
@@ -176,15 +192,16 @@ footer{
         width: 37%;
     }
 
-    main img {
+    #julia {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #julia img {
         width: 100%;
     }
 
     nav {
         grid-template-columns: repeat(5, 1fr);
-    }
-    main {
-        grid-template-columns: repeat(2, 1fr);
     }
     #box2 {
         grid-template-rows: repeat(3, 1fr);
