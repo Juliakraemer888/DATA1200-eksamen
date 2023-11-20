@@ -13,12 +13,7 @@ body{
 
 }
 
-div.introduction { /*article css from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article */
-    margin: 5%;
-    padding: 0.3rem;
-    background-color: rgb(60, 120, 180);
-  }
-  
+
 div.introduction > h1,
   .intro-content {
     margin: 0.5rem;
@@ -36,6 +31,7 @@ div.introduction > h1,
 
 
 nav{
+    position: fixed;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -43,7 +39,7 @@ nav{
     padding-left: 5%;
     padding-right: 5%;
     margin-bottom: 2%;
-    position: sticky;
+
 }
 .nav-text{
     font-size: 2rem;
@@ -83,60 +79,23 @@ main img{
 }
 
 
-#box1{
-    margin-right: 5%;
-}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 
-    #box1 h1{
-        font-size: 3vw;
-    }
-    .breadText{
-        line-height: 150%;
-    }
+    
 
-    .bildeMedTekst p{
-        margin-top: 0;
-        border-top: 0;
-        padding-top: 0;
-    }
+    
 
-    .dobbeltBilde{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 2%;
-        margin-bottom: 5%;
-    }
-
-#box2{
+/* #box2{
     margin-top: 15%;
     margin-bottom: 15%;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 5%;
-}
-
-    .menu{
-        border: solid;
-        border-radius: 15px;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-    .menu h1{
-        text-align: center;
-        font-size: 2.2vw;
-        grid-column: span 2;
-    }
-
-    .menu h4{
-        margin-left: 20%;
-        margin-right: 5%;
-    }
-
-    .menu p{
-        margin-left: 20%;
-        margin-right: 5%;
-    }
-
+} */
 
 footer{
     background-color: rgb(50, 100, 130);
