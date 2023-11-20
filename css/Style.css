@@ -54,10 +54,10 @@ nav a:hover{
     grid-template-columns: 800px;
     gap: 10px;
     padding: 50px;
-    border: 1px solid black;
+    /*border: 5px solid black;
     background-color: aliceblue;
     padding-block-start: 20px;
-    padding-block-end: 20px;
+    padding-block-end: 20px;*/
 }
 
 #Topical3{
@@ -108,28 +108,16 @@ footer{
         width: 30%;
     }
 
-    #Topical {
+    #Topical{
         grid-template-columns: 1fr;
         grid-gap: 0%;
-    }
-
-    #julia img {
-        width: 100%;
     }
     
     nav {
         grid-template-columns: repeat(3, 1fr);
         
     }
-
-    #box1 h1{
-        font-size: 7vw;
-    }
-
-    #box2 {
-        grid-template-rows: 1fr;
-    }
-    
+ 
     nav p{
         font-size: 3vw;
     }
@@ -145,24 +133,13 @@ footer{
     nav img {
         width: 35%;
     }
-    #julia {
-        grid-template-columns: repeat(2, 1fr);
-    }
 
-    #julia img {
-        width: 100%;
+    #Topical{
+        grid-template-columns: repeat(2, 1fr);
     }
 
     nav {
         grid-template-columns: repeat(4, 1fr);
-    }
-
-    #box1 h1{
-        font-size: 4vw;
-    }
-
-    #box2 {
-        grid-template-rows: repeat(2, 1fr);
     }
 
     footer {
@@ -176,20 +153,14 @@ footer{
         width: 37%;
     }
 
-    #julia {
+    #Topical{
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    #julia img {
-        width: 100%;
     }
 
     nav {
         grid-template-columns: repeat(5, 1fr);
     }
-    #box2 {
-        grid-template-rows: repeat(3, 1fr);
-    }
+
  }
 
 
