@@ -9,15 +9,21 @@ body{
 
 
 #index-main{
-    padding-top: 10px;              /*Hannah greie*/
+    padding-top: 10px;
     font-size: 2rem;
 }
 
 
 .index-h1 {
-    margin: 3rem;
+    margin-left: 3%;
     padding: 0.3rem;
     font-size: 4rem;
+  }
+
+  .index-h2{
+    margin-left: 3%;
+    padding: 0,3rem;
+    font-size: 3rem;
   }
   
 .index-p{
@@ -40,11 +46,10 @@ nav{
     padding-left: 5%;
     padding-right: 5%;
     margin-bottom: 2%;
-
 }
+
 .nav-text{
-    font-size: 2rem;
-    margin-top: 7%;
+    margin-top: 10%;
 }
 
 nav p{
