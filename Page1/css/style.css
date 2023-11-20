@@ -2,28 +2,31 @@ body{
     background-color: #A5D6A7;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    color: azure;
+    color: rgb(0, 0, 0);
     margin: 0;
-   /* padding-top: px;*/
+
 }
 
-#grad{
-    
-}
 
 #index-main{
     padding-top: 10px;
+    font-size: 2rem;
 }
 
 
-
-div.introduction > h1,
-  .intro-content {
-    margin: 5rem;
+.index-h1 {
+    margin: 3rem;
     padding: 0.3rem;
-    font-size: 1.2rem;
+    font-size: 4rem;
   }
   
+.index-p{
+    margin-left: 2rem;
+    padding:0.5rem;
+    font-size: 2rem;
+
+}
+
   div.intro-content > h2,
   .intro-content > p {
     margin: 0.2rem;
@@ -197,19 +200,3 @@ footer{
     }
  }
 
-/* html,body{ 
-    background-color: rgb(30, 30, 60);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    color: azure;
-    margin-left: 0px;
-    
-}
-
-nav{
-    background-color: rgb(50, 100, 130);
-    padding: 20px;
-    margin-top: 0%;
-    position: fixed;
-    width: 100%;
-    height: 1,2rem; */
