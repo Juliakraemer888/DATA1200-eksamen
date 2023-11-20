@@ -45,6 +45,7 @@ nav a:hover{
     column-gap: 50px;
     grid-template-columns: auto;
     padding: 20px;
+    text-align: center;
 }
 
 #Topical2{
@@ -78,7 +79,7 @@ nav a:hover{
 footer{
     background-color: 2E7D32;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4,1fr);
     padding-left: 13%;
     padding-right: 8%;
     padding-top: 3%;
