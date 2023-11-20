@@ -38,8 +38,8 @@ nav a:hover{
 
 #building-p35{
     padding-top: 100px;
-    margin-left: 9%;
-    margin-right: 8%;
+    margin-left: 4%;
+    margin-right: 2%;
 }
 
 #building-p35{
@@ -119,11 +119,11 @@ footer{
     }
 
 
-/* Base code below from phind.com, but I´ts edited to make it our own/fit to our page*/
+/* Base code below from phind.com*/
    
    /* Media queries for different screen sizes */
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
+    /* For mobile: */
     nav img {
         width: 30%;
     }
