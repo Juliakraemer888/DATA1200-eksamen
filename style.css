@@ -1,13 +1,13 @@
 body{
     margin: 0;
-    background-color: #74B72E;
+    background-color: #A5D6A7;
 }
 
 nav{
     text-align: center;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    background-color: #0B6623;
+    background-color: #2E7D32;
     padding-left: 5%;
     padding-right: 5%;
     margin-bottom: 2%;
@@ -82,7 +82,7 @@ nav a:hover{
         border-radius: 15px;
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        background-color: #597D35;
+        background-color: #66BB6A;
     }
     .menu h1{
         text-align: center;
@@ -102,7 +102,7 @@ nav a:hover{
 
 
 footer{
-    background-color: #0B6623;
+    background-color: #2E7D32;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     padding-left: 13%;
