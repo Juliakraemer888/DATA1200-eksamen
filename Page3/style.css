@@ -24,9 +24,19 @@ h1{
     margin-left: 0cap;
 }
 .nav{
-    grid-column: 1/13;
-    grid-row: 1;
-    background-color: #ff8404;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: rgb(50, 100, 130);
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 2%;
+}
+
+
+.nav-text{
+    font-size: 2rem;
+    margin-top: 7%;
 }
 
     .logo{
