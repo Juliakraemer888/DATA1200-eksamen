@@ -34,16 +34,13 @@ nav a:hover{
     text-decoration: underline;
 }
 
-#julia{
+#building-p35{
     padding-top: 100px;
     margin-left: 9%;
     margin-right: 8%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5%;
 }
 
-#julia img{
+#building-p35{
     width: 100%;
 }
 
@@ -129,28 +126,11 @@ footer{
         width: 30%;
     }
 
-    #julia {
-        grid-template-columns: 1fr;
-        grid-gap: 0%;
-    }
-
-    #julia img {
-        width: 100%;
-    }
-    
     nav {
         grid-template-columns: repeat(3, 1fr);
         
     }
 
-    #box1 h1{
-        font-size: 7vw;
-    }
-
-    #box2 {
-        grid-template-rows: 1fr;
-    }
-    
     nav p{
         font-size: 3vw;
     }
@@ -165,13 +145,6 @@ footer{
     /* For tablets: */
     nav img {
         width: 35%;
-    }
-    #julia {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    #julia img {
-        width: 100%;
     }
 
     nav {
@@ -195,14 +168,6 @@ footer{
     /* For desktop: */
     nav img {
         width: 37%;
-    }
-
-    #julia {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    #julia img {
-        width: 100%;
     }
 
     nav {
