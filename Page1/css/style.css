@@ -7,15 +7,19 @@ body{
    /* padding-top: px;*/
 }
 
+#grad{
+    
+}
+
 #index-main{
-    padding-top: 10%;
+    padding-top: 10px;
 }
 
 
 
 div.introduction > h1,
   .intro-content {
-    margin: 0.5rem;
+    margin: 5rem;
     padding: 0.3rem;
     font-size: 1.2rem;
   }
@@ -63,7 +67,7 @@ nav a:hover{
 
 }
 
-main{
+/*main{
     margin-left: 9%;
     margin-right: 8%;
     display: grid;
@@ -73,15 +77,21 @@ main{
 
 .main-banner.img {
     width: 100%;
-}
+    margin-left: 10%;
+    margin-right:10%;
+}*/
 
 
-.container-index-grid {
+/*.container-index-grid {
+    grid-auto-flow: row;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
-.intro-content
+.intro-content{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}*/
     
 
     
