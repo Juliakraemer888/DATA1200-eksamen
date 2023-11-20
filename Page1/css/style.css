@@ -4,8 +4,12 @@ body{
     font-size: 1rem;
     color: azure;
     margin: 0;
+    padding-top: 100px;
 }
 
+#index-main{
+    padding-top: 500px;
+}
 #banner-img-p32{
     margin-left: 10%;
     margin-right: 10%;
