@@ -43,9 +43,9 @@ nav a:hover{
 #Topical1{
     display: grid;
     justify-content: start;
-    grid-template-columns: 800px;
-    gap: 10px;
-    padding: 50px;
+    grid-template-columns: 60%;
+    gap: 0,5%;
+    padding: 5%;
     /*text-align: center;*/
 }
 
@@ -53,8 +53,8 @@ nav a:hover{
     display: grid;
     justify-content: end;
     grid-template-columns: 800px;
-    gap: 10px;
-    padding: 50px;
+    gap: 0,55%;
+    padding: 5%;
 }
 
 /*#Topical2{
