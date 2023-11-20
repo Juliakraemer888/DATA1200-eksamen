@@ -1,0 +1,26 @@
+body {
+    background-color: green;
+}
+h1{
+    color: black;
+    
+}
+article {
+    text-align: center;
+}
+#grad{
+    background-image: linear-gradient(green, rgb(34, 196, 34, rgb(54, 201, 54)));
+}
+img {
+        border: 5px solid rgb(128, 128, 128);
+        display: block;
+}
+
+#example1 {
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 5px 5px 10px green;
+    text-align: right;
+    font-size: larger;
+    
+}

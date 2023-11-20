@@ -45,3 +45,14 @@ nav{
     padding-top: 20px;
     padding-left: 15px;
 }
+
+div{
+    width: 49%;
+    height: 20px;
+    padding: 2px;
+    margin: 0%;
+    border: 5px solid green;
+    margin-left: left;
+    margin-right: right;
+    
+}
