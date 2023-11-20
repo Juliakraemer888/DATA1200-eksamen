@@ -2,7 +2,7 @@
 body{
     margin: 0;
     background: #A5D6A7;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 nav{
@@ -98,6 +98,99 @@ footer{
 #footer1{
     grid-column: span 2;
 }
+
+/* Base code below from phind.com, but I´ts edited to make it our own/fit to our page*/
+   
+   /* Media queries for different screen sizes */
+   @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    nav img {
+        width: 30%;
+    }
+
+    #Topical {
+        grid-template-columns: 1fr;
+        grid-gap: 0%;
+    }
+
+    #julia img {
+        width: 100%;
+    }
+    
+    nav {
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+
+    #box1 h1{
+        font-size: 7vw;
+    }
+
+    #box2 {
+        grid-template-rows: 1fr;
+    }
+    
+    nav p{
+        font-size: 3vw;
+    }
+    footer {
+        margin-top: 40%;
+        grid-gap: 10%;
+        /*teste ut mer typ margins etc for å se om det funker i liten*/
+    }
+ }
+ 
+ @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* For tablets: */
+    nav img {
+        width: 35%;
+    }
+    #julia {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #julia img {
+        width: 100%;
+    }
+
+    nav {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #box1 h1{
+        font-size: 4vw;
+    }
+
+    #box2 {
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    footer {
+        margin-top: 15%;
+    }
+ }
+ 
+ @media only screen and (min-width: 1025px) {
+    /* For desktop: */
+    nav img {
+        width: 37%;
+    }
+
+    #julia {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #julia img {
+        width: 100%;
+    }
+
+    nav {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    #box2 {
+        grid-template-rows: repeat(3, 1fr);
+    }
+ }
 
 
 /* To make heading big */
