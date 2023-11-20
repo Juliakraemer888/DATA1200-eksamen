@@ -1,12 +1,13 @@
 body{
     margin: 0;
+    background-color: #74B72E;
 }
 
 nav{
     text-align: center;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    background-color: #ff8404;
+    background-color: #0B6623;
     padding-left: 5%;
     padding-right: 5%;
     margin-bottom: 2%;
@@ -81,6 +82,7 @@ nav a:hover{
         border-radius: 15px;
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        background-color: #597D35;
     }
     .menu h1{
         text-align: center;
@@ -100,7 +102,7 @@ nav a:hover{
 
 
 footer{
-    background-color: #ff8404;
+    background-color: #0B6623;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     padding-left: 13%;
@@ -207,3 +209,6 @@ footer{
         grid-template-rows: repeat(3, 1fr);
     }
  }
+
+
+ /*oslomey farge ff8404*/
