@@ -13,6 +13,9 @@ body{
     font-size: 1.5rem;
 }
 
+.intro-content{
+    margin-left: 15%;
+}
 
 .index-h1 {
     margin-left: 3%;
@@ -30,12 +33,7 @@ body{
     margin-left: 2rem;
     padding:0.5rem;
     font-size: 1rem;
-
 }
-
-
-    
- 
 
 nav{
     position: fixed;
