@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    background-color: #A5D6A7;
+    
+}
+
+nav{
+    position: fixed;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #2E7D32;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 2%;
+}
+
+nav p{
+    margin-top: 10%;
+    font-size: 2vw;
+}
+
+nav img{
+    width: 30%;
+    margin-top: 3%;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+#julia{
+    padding-top: 100px;
+    margin-left: 9%;
+    margin-right: 8%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5%;
+}
+
+#julia img{
+    width: 100%;
+}
+
+
+#box1{
+    margin-right: 5%;
+}
+
+    #box1 h1{
+        font-size: 3vw;
+    }
+    .breadText{
+        line-height: 150%;
+    }
+
+    .kantineBildeMedTekst p{
+        margin-top: 0;
+        border-top: 0;
+        padding-top: 0;
+    }
+
+    .dobbeltBilde{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2%;
+        margin-bottom: 5%;
+    }
+
+#box2{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5%;
+}
+
+    .menu{
+        border: solid;
+        border-radius: 15px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        background-color: #66BB6A;
+    }
+    .menu h1{
+        text-align: center;
+        font-size: 2.2vw;
+        grid-column: span 2;
+    }
+
+    .menu h4{
+        margin-left: 20%;
+        margin-right: 5%;
+    }
+
+    .menu p{
+        margin-left: 20%;
+        margin-right: 5%;
+    }
+
+
+footer{
+    background-color: #2E7D32;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 13%;
+    padding-right: 8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 5%;
+}
+
+    #footer1{
+        grid-column: span 2;
+    }
+
+
+/* Base code below from phind.com, but I´ts edited to make it our own/fit to our page*/
+   
+   /* Media queries for different screen sizes */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    nav img {
+        width: 30%;
+    }
+
+    #julia {
+        grid-template-columns: 1fr;
+        grid-gap: 0%;
+    }
+
+    #julia img {
+        width: 100%;
+    }
+    
+    nav {
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+
+    #box1 h1{
+        font-size: 7vw;
+    }
+
+    #box2 {
+        grid-template-rows: 1fr;
+    }
+    
+    nav p{
+        font-size: 3vw;
+    }
+    footer {
+        margin-top: 40%;
+        grid-gap: 10%;
+        /*teste ut mer typ margins etc for å se om det funker i liten*/
+    }
+ }
+ 
+ @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* For tablets: */
+    nav img {
+        width: 35%;
+    }
+    #julia {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #julia img {
+        width: 100%;
+    }
+
+    nav {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #box1 h1{
+        font-size: 4vw;
+    }
+
+    #box2 {
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    footer {
+        margin-top: 15%;
+    }
+ }
+ 
+ @media only screen and (min-width: 1025px) {
+    /* For desktop: */
+    nav img {
+        width: 37%;
+    }
+
+    #julia {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #julia img {
+        width: 100%;
+    }
+
+    nav {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    #box2 {
+        grid-template-rows: repeat(3, 1fr);
+    }
+ }
