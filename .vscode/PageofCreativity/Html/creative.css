@@ -1,9 +1,24 @@
 body {
-    background-color: green;
-    color: white;
+    background-color: #A5D6A7;
+    color: black;
 }
+.backround image {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+body:before {
+    content: "";
+    background-image: url('');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: grayscale(100%);
+   }
 h1{
-    color: white
+    color: black;
     
 }
 article {
@@ -13,15 +28,81 @@ article {
     background-image: linear-gradient(green, rgb(34, 196, 34, rgb(54, 201, 54)));
 }
 img {
-        border: 5px solid rgb(128, 128, 128);
+        border: 15% solid rgb(128, 128, 128);
         display: block;
+}
+img.planter {
+    display:grid;
+   grid-template-columns: 50% 50%;
+   background-color: green;
+   padding: 10px;
+
+}
+.itemKjetil{
+    background-color: green;
+    border: 1px solid green;
+    padding: 10px;
+    font-size: 30px;
+    text-align: left;
 }
 
 #example1 {
-    border: 1px solid black;
+    border: 0px solid black;
     padding: 10px;
     box-shadow: 5px 5px 10px green;
     text-align: right;
     font-size: larger;
+    color: black;
     
 }
+nav{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #2E7D32;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 2%;
+    color: black;
+}
+
+nav p{
+    margin-top: 10%;
+    font-size: 2vw;
+}
+
+nav img{
+    width: 30%;
+    margin-top: 3%;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+footer {
+    background-color: #2E7D32;
+}
+.containerKjetil {
+ 
+   display:grid;
+   grid-template-columns: 50% 50%;
+   background-color: green;
+   padding: 10px;
+}
+.itemKjetil{
+    background-color: green;
+    border: 1px solid green;
+    padding: 10px;
+    font-size: 30px;
+    text-align: left;
+}
+.itemKjetil img{
+    width: 33%;
+}
+
+
