@@ -58,6 +58,32 @@ nav a:hover{
     font-size: 1rem;
 } /*David la til dette*/
 
+#Topical{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+    max-width: 12000px;
+    padding: 20px;  
+}
+
+#Topical .introduction{
+    grid-column: span 2;
+    padding: 10px 20px;
+}
+
+#Topical .card{ 
+    grid-column: span 3;
+    padding: 10px 20px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.111)
+}
+
+#Topical img{
+    grid-column: span 3;
+    width: 50%;
+    border-radius: 10px;
+}/* Sara did this*/
+
 #accessibility{
     padding-top: 100px;
     margin-left: 4%;
