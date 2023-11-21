@@ -39,7 +39,7 @@ nav a:hover{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 30px;
-    max-width: 1200px;
+    max-width: 12000px;
     /*margin: 60px auto;*/
     padding: 20px;
     /*padding-top: 100px;
@@ -52,11 +52,18 @@ nav a:hover{
 #Topical .introduction{
     grid-column: span 6;
 }
-/*BILDE UNDER
-/*#Topical img{
-    grid-column: span 3;
-    width: 100%;
+
+#Topical .card{
+    grid-column: span 4;
+    padding: 10px 20px;
     border-radius: 6px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.05)
+}
+
+#Topical img{
+    grid-column: span 3;
+    width: 50%;
+    border-radius: 10px;
 }
 
 /*#Topical1{
@@ -141,6 +148,14 @@ footer{
         grid-template-columns: 1fr;
         grid-gap: 0%;
     }
+
+    #Topical .introduction{
+        grid-template-rows: 1fr;
+    }
+
+    #Topical .card{
+        grid-template-rows: 1fr;
+    }
     
     nav {
         grid-template-columns: repeat(3, 1fr);
@@ -167,6 +182,14 @@ footer{
         grid-template-columns: repeat(2, 1fr);
     }
 
+    #Topical .introduction{
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    #Topical .card{
+        grid-template-rows: repeat(2, 1fr);
+    }
+
     nav {
         grid-template-columns: repeat(4, 1fr);
     }
@@ -186,6 +209,14 @@ footer{
         grid-template-columns: repeat(2, 1fr);
     }
 
+    #Topical .introduction{
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    #Topical .card{
+        grid-template-rows: repeat(3, 1fr);
+    }
+
     nav {
         grid-template-columns: repeat(5, 1fr);
     }
@@ -203,11 +234,6 @@ h2, h3, h4{
     font-size: 25px;
 }
 
-/* To make sub title little*/
-h5{
-    font-size: 10px;
-}
-
 /* To make the picture centered in the page*/
 /*#Kitty{
     display: block;
@@ -216,26 +242,6 @@ h5{
     width: 50%;
 }
 
-/* To make the list centered*/
-/*li{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/*a{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* To make the text centered*/
-/*h1, h2, h3, h4, h5, p{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-}
 
 /* To have a text box with source under the picture*/
 /*div{
