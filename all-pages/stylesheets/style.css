@@ -4,7 +4,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     
 }
-
+/*Shared nav-bar for all pages*/
 nav{
     position: fixed;
     text-align: center;
@@ -35,15 +35,8 @@ nav a:hover{
     text-decoration: underline;
 }
 
-/*.sticky-navbar.active{
-    text-decoration: underline;
-}
-/* Work in progress 
-.nav a:active{
-    text-decoration: overline;
-}
-Work in progress*/
-#index-main{/*David la til dette*/
+/*Index main*/
+#index-main{
     padding-top: 10px;
     font-size: 1.5em;
 }
@@ -68,8 +61,8 @@ Work in progress*/
 .index-p{
     padding:0.5rem;
     font-size: 1rem;
-} /*David la til dette*/
-
+} 
+/*Topical main*/
 #Topical{
     padding-top:150px;
     margin-left:15%;
@@ -103,13 +96,12 @@ div.picture-text{
 #Topical h2,h3,h4{
     font-size: 1rem;
 }
-
+/*accessibility main*/
 #accessibility{
     padding-top: 150px;
     margin-left: 10%;
     margin-right: 10%;
-    
-} /*Hannah's css*/
+} 
 
 .accessability-p{
     margin-left: 27%;
@@ -122,9 +114,8 @@ div.picture-text{
     display:block;
     margin-left:auto;
     margin-right:auto;
-    
 }
-
+/*Cafeteria main*/
 #cafeteria{
     padding-top: 100px;
     margin-left: 9%;
@@ -194,7 +185,7 @@ div.picture-text{
         margin-right: 5%;
     }
 
-
+/*Shared footer for all pages*/
 footer{
     background-color: #2E7D32;
     display: grid;
