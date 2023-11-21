@@ -5,7 +5,8 @@ body {
 }
 
 nav{
-    text-align: position;
+    text-align: center; 
+    position: fixed;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     background-color: #2E7D32;
@@ -15,7 +16,7 @@ nav{
 }
 
 nav {
-    margin-top: 10%;
+    /*margin-top: 10%;*/
     font-size: 2vw;
 }
 

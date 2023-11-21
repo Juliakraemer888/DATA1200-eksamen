@@ -34,10 +34,11 @@ nav a{
 nav a:hover{
     text-decoration: underline;
 }
+/* Work in progress
 .nav a:active{
     text-decoration: overline;
 }
-
+Work in progress*/
 #index-main{/*David la til dette*/
     padding-top: 10px;
     font-size: 1.5em;
