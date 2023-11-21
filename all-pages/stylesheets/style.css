@@ -67,21 +67,6 @@ nav a:hover{
     margin-left:15%;
     margin-right:15%;
 }
-
-
-/*#Topical{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 30px;
-    max-width: 12000px;
-    padding: 20px;  
-}
-
-#Topical .introduction{
-    grid-column: span 2;
-    padding: 10px 20px;
-}
-*/
 #Topical .card{ 
     grid-column: span 3;
     padding: 10px 20px;
