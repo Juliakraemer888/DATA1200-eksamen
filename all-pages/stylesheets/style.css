@@ -1,4 +1,4 @@
-body{
+body{ /* to make the navn bar appear on top*/
     margin: 0;
     background-color: #A5D6A7;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,22 +16,22 @@ nav{
     margin-bottom: 2%;
 }
 
-nav p{
+nav p{ /*edit the nav text*/
     margin-top: 10%;
     font-size: 2vw;
 }
 
-nav img{
+nav img{ /*edit of the nav image*/
     width: 30%;
     margin-top: 3%;
 }
 
-nav a{
+nav a{ /*edit of the nav element*/
     text-decoration: none;
     color: black;
 }
 
-nav a:hover{
+nav a:hover{ /*to get the underscore line when hovering over the nav options except the image*/
     text-decoration: underline;
     color: #A5D6A7;
 }
@@ -76,9 +76,8 @@ nav a:hover{
 }
 
 #Topical img{
-    grid-column: span 3;
     width: 50%;
-    border-radius: 10px;
+    border-radius: 50px;
     margin-top: 20px;
     display:block;
     margin-left:auto;
@@ -204,6 +203,7 @@ footer{
 
 
 /* Base code below from phind.com, but I´ts edited to make it our own/fit to our page*/
+/*all pages needing media quieries are sorted below*/
    
    /* Media queries for different screen sizes */
 @media only screen and (max-width: 768px) {
@@ -211,51 +211,39 @@ footer{
     nav img {
         width: 30%;
     }
-
+    nav {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    nav p{
+        font-size: 3vw;
+    }
     #cafeteria {
         grid-template-columns: 1fr;
         grid-gap: 0%;
     }
-
     #cafeteria img {
         width: 100%;
     }
-
+    #box1 h1{
+        font-size: 7vw;
+    }
+    #box2 {
+        grid-template-rows: 1fr;
+    }
     #Topical{
         grid-template-columns: 1fr;
         grid-gap: 0%;
     }
-
     #Topical img{
         width: 100%;
     }
-
     #index-main img{
         width: 100%;
-    }
-    
-    nav {
-        grid-template-columns: repeat(3, 1fr);
-        
-    }
-
-    #box1 h1{
-        font-size: 7vw;
-    }
-
-    #box2 {
-        grid-template-rows: 1fr;
-    }
-    
-    nav p{
-        font-size: 3vw;
     }
     footer {
         margin-top: 40%;
         grid-gap: 10%;
-        /*teste ut mer typ margins etc for å se om det funker i liten*/
     }
-
     #footer1 h2{
         font-size: 22px;
     }
@@ -266,38 +254,30 @@ footer{
     nav img {
         width: 35%;
     }
-    #cafeteria {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    #cafeteria img {
-        width: 100%;
-    }
-
-    #Topical{
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    #Topical img{
-        width: 100%;
-    }
-
-    #index-main img{
-        width: 100%;
-    }
-
     nav {
         grid-template-columns: repeat(4, 1fr);
     }
-
+    #cafeteria {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #cafeteria img {
+        width: 100%;
+    }
     #box1 h1{
         font-size: 4vw;
     }
-
     #box2 {
         grid-template-rows: repeat(2, 1fr);
     }
-
+    #Topical{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #Topical img{
+        width: 100%;
+    }
+    #index-main img{
+        width: 100%;
+    }
     footer {
         margin-top: 15%;
     }
@@ -308,31 +288,25 @@ footer{
     nav img {
         width: 37%;
     }
-
-    #cafeteria {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    #cafeteria img {
-        width: 100%;
-    }
-
-    #Topical{
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    #Topical img{
-        width: 50%;
-    }
-
-    #index-main img{
-        width: 100%;
-    }
-
     nav {
         grid-template-columns: repeat(5, 1fr);
     }
+    #cafeteria {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #cafeteria img {
+        width: 100%;
+    }
     #box2 {
         grid-template-rows: repeat(3, 1fr);
+    }
+    #Topical{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #Topical img{
+        width: 50%;
+    }
+    #index-main img{
+        width: 100%;
     }
  }
