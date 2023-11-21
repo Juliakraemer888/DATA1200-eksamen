@@ -4,7 +4,6 @@ body {
 }
 
 nav{
-    position: fixed;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
