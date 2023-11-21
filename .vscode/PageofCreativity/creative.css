@@ -125,6 +125,9 @@ article {
     font-size: 15px;
    text-align: right; 
 }
+#factbox p{
+    margin-right: 5%;
+}
 .insekter{
     background-color: #2E7D32;
     font-size: 20px;
