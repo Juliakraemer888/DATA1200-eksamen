@@ -50,7 +50,7 @@ nav a:hover{
 }
 
 #Topical .introduction{
-    grid-column: span 6;
+    grid-column: span 2;
 }
 
 #Topical .card{
