@@ -35,10 +35,10 @@ nav a:hover{
     text-decoration: underline;
 }
 
-.sticky-navbar-active{
+/*.sticky-navbar.active{
     text-decoration: underline;
 }
-/* Work in progress
+/* Work in progress 
 .nav a:active{
     text-decoration: overline;
 }
