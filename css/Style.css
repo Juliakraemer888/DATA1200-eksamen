@@ -36,25 +36,45 @@ nav a:hover{
 }
 
 #Topical{
-    padding-top: 100px;
-   
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    /*margin: 60px auto;*/
+    padding: 20px;
+    /*padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+    /*grid-template-columns: 1fr 1fr;*/   
 }
 
-#Topical1{
-    display: grid;
+#Topical .introduction{
+    grid-column: span 6;
+}
+/*BILDE UNDER
+/*#Topical img{
+    grid-column: span 3;
+    width: 100%;
+    border-radius: 6px;
+}
+
+/*#Topical1{
+    /*display: grid;
     justify-content: start;
     grid-template-columns: 60%;
-    gap: 0,5%;
+    gap: 0%;
     padding: 5%;
-    /*text-align: center;*/
+    /*text-align: center;
 }
 
 #Topical2{
-    display: grid;
+   /* display: grid;
     justify-content: end;
     grid-template-columns: 800px;
-    gap: 0,55%;
+    gap: 0%;
     padding: 5%;
+    
 }
 
 /*#Topical2{
