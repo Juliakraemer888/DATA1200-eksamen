@@ -105,12 +105,16 @@ div.picture-text{
 }
 
 #accessibility{
-    padding-top: 10%;
+    padding-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
     
 } /*Hannah's css*/
 
+.accessability-p{
+    margin-left: 27%;
+    margin-right: 27%;
+}
 #accessibility img{
     width: 100%;
     border-radius: 5px;
