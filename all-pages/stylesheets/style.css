@@ -204,6 +204,7 @@ footer{
 
 
 /* Base code below from phind.com, but I´ts edited to make it our own/fit to our page*/
+/*all pages needing media quieries are sorted below*/
    
    /* Media queries for different screen sizes */
 @media only screen and (max-width: 768px) {
