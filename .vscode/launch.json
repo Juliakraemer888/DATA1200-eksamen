@@ -10,5 +10,12 @@
             "name": "Open Funpage.html",
             "file": "c:\\Users\\Kjeti\\OneDrive\\Dokumenter\\GitHub\\Oblig-2\\HomeExam_Gruppe31\\DATA1200-eksamen\\Funpage\\Funpage.html"
         }
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        }
     ]
 }

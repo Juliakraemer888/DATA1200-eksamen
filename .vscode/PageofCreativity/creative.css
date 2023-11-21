@@ -1,6 +1,6 @@
 body {
     background-color: #A5D6A7;
-    color: black;
+    color: white;
 }
 
 nav{
@@ -69,7 +69,6 @@ nav a:hover{
 
 
 h1{
-    color: black;
     background-color: rgb(0, 128, 0);
 
 }
@@ -88,7 +87,7 @@ h1{
   .column {
     float: left;
     width: 50%;
-    padding: 10px;
+    padding-left: 10%;
     box-sizing: border-box;
   }
   .column img{
@@ -109,7 +108,7 @@ article {
     border-radius: 32px;
     box-shadow: 0 4px 8px;
     padding: 30px;
-    color: black;
+    color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -132,12 +131,9 @@ article {
 }
 
 .insekter img{
-    max-width: 25%;
     height: auto auto;
-    margin-right: 5px;
-    margin-left: 5px;
-    box-sizing: border-box;
     display: table;
+    border-radius: 15%;
 }
 .planter{
     padding: 20px;
