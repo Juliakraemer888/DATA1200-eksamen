@@ -34,6 +34,9 @@ nav a{
 nav a:hover{
     text-decoration: underline;
 }
+.nav a:active{
+    text-decoration: overline;
+}
 
 #index-main{/*David la til dette*/
     padding-top: 10px;
