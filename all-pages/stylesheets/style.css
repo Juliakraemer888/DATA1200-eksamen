@@ -263,6 +263,10 @@ footer{
         grid-gap: 10%;
         /*teste ut mer typ margins etc for å se om det funker i liten*/
     }
+
+    #footer1 h2{
+        font-size: 22px;
+    }
  }
  
  @media only screen and (min-width: 769px) and (max-width: 1024px) {
