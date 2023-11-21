@@ -58,6 +58,16 @@ nav a:hover{
     font-size: 1rem;
 } /*David la til dette*/
 
+#accessibility{
+    padding-top: 100px;
+    margin-left: 4%;
+    margin-right: 2%;
+}
+
+#accessibility{
+    width: 100%;
+}
+
 #cafeteria{
     padding-top: 100px;
     margin-left: 9%;
