@@ -58,7 +58,7 @@ nav a:hover{
     font-size: 1rem;
 } /*David la til dette*/
 
-#julia{
+#cafeteria{
     padding-top: 100px;
     margin-left: 9%;
     margin-right: 8%;
@@ -67,7 +67,7 @@ nav a:hover{
     grid-gap: 5%;
 }
 
-#julia img{
+#cafeteria img{
     width: 100%;
 }
 
@@ -153,12 +153,12 @@ footer{
         width: 30%;
     }
 
-    #julia {
+    #cafeteria {
         grid-template-columns: 1fr;
         grid-gap: 0%;
     }
 
-    #julia img {
+    #cafeteria img {
         width: 100%;
     }
     
@@ -190,11 +190,11 @@ footer{
     nav img {
         width: 35%;
     }
-    #julia {
+    #cafeteria {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    #julia img {
+    #cafeteria img {
         width: 100%;
     }
 
@@ -221,11 +221,11 @@ footer{
         width: 37%;
     }
 
-    #julia {
+    #cafeteria {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    #julia img {
+    #cafeteria img {
         width: 100%;
     }
 
