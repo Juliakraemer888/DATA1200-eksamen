@@ -90,10 +90,17 @@ div.picture-text{
 }
 #accessibility{
     padding-top: 10%;
-    margin-left: 4%;
+    margin-left: 2%;
     margin-right: 2%;
     width: 100%;
 } /*Hannah's css*/
+
+#accessibility .card{ 
+    grid-column: span 3;
+    padding: 10px 20px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.111)
+}
 
 #accessibility img{
     width: 90%;
