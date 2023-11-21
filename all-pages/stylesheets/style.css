@@ -96,7 +96,7 @@ div.picture-text{
 #Topical h2,h3,h4{
     font-size: 1rem;
 }
-/*accessibility main*/
+/*accessibility main start*/
 #accessibility{
     padding-top: 150px;
     margin-left: 10%;
@@ -114,7 +114,8 @@ div.picture-text{
     display:block;
     margin-left:auto;
     margin-right:auto;
-}
+}/*accessability main end*/
+
 /*Cafeteria main*/
 #cafeteria{
     padding-top: 100px;
