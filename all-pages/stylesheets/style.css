@@ -39,7 +39,7 @@ nav a:hover{ /*to get the underscore line when hovering over the nav options exc
 /*Index main*/
 #index-main{
     padding-top: 10px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .index-content{
@@ -51,7 +51,7 @@ nav a:hover{ /*to get the underscore line when hovering over the nav options exc
 
 .index-h1 {
     padding: 0.3rem;
-    font-size: 4em;
+    font-size: 4rem;
   }
 
   .index-h2,h3{
@@ -61,7 +61,7 @@ nav a:hover{ /*to get the underscore line when hovering over the nav options exc
   
 .index-p{
     padding:0.5rem;
-    font-size: 1rem;
+    font-size: 0.8em;
 } 
 /*Topical main*/
 #Topical{
@@ -76,9 +76,8 @@ nav a:hover{ /*to get the underscore line when hovering over the nav options exc
 }
 
 #Topical img{
-    grid-column: span 3;
     width: 50%;
-    border-radius: 10px;
+    border-radius: 50px;
     margin-top: 20px;
     display:block;
     margin-left:auto;
