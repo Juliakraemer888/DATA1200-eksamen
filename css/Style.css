@@ -51,6 +51,7 @@ nav a:hover{
 
 #Topical .introduction{
     grid-column: span 2;
+    padding: 10px 20px;
 }
 
 #Topical .card{
