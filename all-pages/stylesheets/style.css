@@ -198,6 +198,10 @@ footer{
     #cafeteria img {
         width: 100%;
     }
+
+    #index-main img{
+        width: 100%;
+    }
     
     nav {
         grid-template-columns: repeat(3, 1fr);
@@ -235,6 +239,10 @@ footer{
         width: 100%;
     }
 
+    #index-main img{
+        width: 100%;
+    }
+
     nav {
         grid-template-columns: repeat(4, 1fr);
     }
@@ -263,6 +271,10 @@ footer{
     }
 
     #cafeteria img {
+        width: 100%;
+    }
+
+    #index-main img{
         width: 100%;
     }
 
