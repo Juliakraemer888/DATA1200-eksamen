@@ -75,9 +75,8 @@ nav a:hover{
 }
 
 #Topical img{
-    grid-column: span 3;
     width: 50%;
-    border-radius: 10px;
+    border-radius: 50px;
     margin-top: 20px;
     display:block;
     margin-left:auto;
