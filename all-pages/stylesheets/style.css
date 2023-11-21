@@ -40,7 +40,7 @@ nav a:hover{
     font-size: 1.5em;
 }
 
-.intro-content{
+.index-content{
     margin-left: 20%;
     margin-right: 20%;
     padding-left: 5%;
@@ -216,6 +216,15 @@ footer{
         width: 100%;
     }
 
+    #Topical{
+        grid-template-columns: 1fr;
+        grid-gap: 0%;
+    }
+
+    #Topical img{
+        width: 100%;
+    }
+
     #index-main img{
         width: 100%;
     }
@@ -256,6 +265,14 @@ footer{
         width: 100%;
     }
 
+    #Topical{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #Topical img{
+        width: 100%;
+    }
+
     #index-main img{
         width: 100%;
     }
@@ -289,6 +306,14 @@ footer{
 
     #cafeteria img {
         width: 100%;
+    }
+
+    #Topical{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #Topical img{
+        width: 50%;
     }
 
     #index-main img{
