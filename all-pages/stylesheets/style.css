@@ -36,7 +36,7 @@ nav a:hover{ /*to get the underscore line when hovering over the nav options exc
     color: #A5D6A7;
 }
 
-/*Index main*/
+/*index main start*/
 #index-main{
     padding-top: 10px;
     font-size: 1.5rem;
@@ -62,8 +62,9 @@ nav a:hover{ /*to get the underscore line when hovering over the nav options exc
 .index-p{
     padding:0.5rem;
     font-size: 0.8em;
-} 
-/*Topical main*/
+}/*index main ends*/ 
+
+/*Topical main start*/
 #Topical{
     padding-top:150px;
     margin-left:15%;
@@ -82,7 +83,6 @@ nav a:hover{ /*to get the underscore line when hovering over the nav options exc
     display:block;
     margin-left:auto;
     margin-right:auto;
-    
 }
 
 div.picture-text{
@@ -95,7 +95,8 @@ div.picture-text{
 
 #Topical h2,h3,h4{
     font-size: 1rem;
-}
+}/*Topical main end*/
+
 /*accessibility main start*/
 #accessibility{
     padding-top: 150px;
@@ -183,7 +184,7 @@ div.picture-text{
     .menu p{
         margin-left: 20%;
         margin-right: 5%;
-    }
+    }/*cafeteria main end*/
 
 /*Shared footer for all pages*/
 footer{
