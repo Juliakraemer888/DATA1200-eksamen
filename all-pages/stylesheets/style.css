@@ -283,6 +283,10 @@ footer{
     #index-main img{
         width: 100%;
     }
+    .index-content{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
     footer {
         margin-top: 15%;
     }
@@ -313,5 +317,9 @@ footer{
     }
     #index-main img{
         width: 100%;
+    }
+    .index-content{
+        margin-left: 15%;
+        margin-right: 15%;
     }
  }
