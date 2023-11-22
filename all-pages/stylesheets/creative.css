@@ -6,14 +6,13 @@ body {
 }
 
 nav{
-    /*position: fixed;*/
     text-align: center; 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     background-color: #2E7D32;
     width: 100%;
-    /*padding-left: 5%;*/
-    /*padding-right: 5%;*/
+    padding-left: 5%;
+    padding-right: 5%;
     margin-bottom: 2%;
 }
 
@@ -133,3 +132,40 @@ footer {
 .footer img {
     max-width: 100%;
 }
+
+/* Base code below from phind.com, but I´ts edited to make it our own/fit to our page*/
+/*all pages needing media quieries are sorted below*/
+   
+   /* Media queries for different screen sizes */
+   @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    nav img {
+        width: 30%;
+    }
+    nav {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    nav p{
+        font-size: 3vw;
+    }
+ }
+ 
+ @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* For tablets: */
+    nav img {
+        width: 35%;
+    }
+    nav {
+        grid-template-columns: repeat(4, 1fr);
+    }
+ }
+ 
+ @media only screen and (min-width: 1025px) {
+    /* For desktop: */
+    nav img {
+        width: 37%;
+    }
+    nav {
+        grid-template-columns: repeat(5, 1fr);
+    }
+ }
