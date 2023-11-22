@@ -35,7 +35,7 @@ nav a:hover{
     color: #A5D6A7;
 }
 
-
+/*main start*/
 main{
     background-color: rgb(0, 90, 0); 
 }
@@ -152,7 +152,7 @@ article {
     box-sizing: border-box;
     border: 5px solid grey;
     display: table;
-}
+}/*main end*/
 
 footer{
     background-color: #2E7D32;
