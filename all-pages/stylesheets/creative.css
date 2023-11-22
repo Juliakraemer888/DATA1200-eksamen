@@ -159,9 +159,26 @@ footer{
     font-size: 3vw;
     padding-top: 2.5%;
 }
-footer img{
+.footer img {
     max-width: 100%;
 }
+
+footer2 {
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 13%;
+    padding-right: 8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 5%;
+}
+
+#footer2{
+    grid-column: span 2;
+}
+/*place shared footer above. Remember to adjust the name to avoid pathing errors*/
+
 
 #fellesFooter{
     background-color: #2E7D32;

@@ -38,13 +38,13 @@ nav a:hover{ /*to get the underscore line when hovering over the nav options exc
 
 /*index main start*/
 #index-main{
-    padding-top: 10px;
+  /*  padding-top: 10px;*/
     font-size: 1.5rem;
 }
 
 .index-content{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -238,8 +238,13 @@ footer{
     #Topical img{
         width: 100%;
     }
+    .index-content{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
     #index-main img{
         width: 100%;
+        height: 40%;
     }
     footer {
         margin-top: 40%;
@@ -278,6 +283,11 @@ footer{
     }
     #index-main img{
         width: 100%;
+        height: 70%;
+    }
+    .index-content{
+        margin-left: 8%;
+        margin-right: 8%;
     }
     footer {
         margin-top: 15%;
@@ -309,5 +319,10 @@ footer{
     }
     #index-main img{
         width: 100%;
+        padding-top: 110px;
+    }
+    .index-content{
+        margin-left: 15%;
+        margin-right: 15%;
     }
  }
