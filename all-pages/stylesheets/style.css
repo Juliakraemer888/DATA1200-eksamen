@@ -38,7 +38,7 @@ nav a:hover{ /*to get the underscore line when hovering over the nav options exc
 
 /*index main start*/
 #index-main{
-    padding-top: 10px;
+  /*  padding-top: 10px;*/
     font-size: 1.5rem;
 }
 
@@ -319,7 +319,7 @@ footer{
     }
     #index-main img{
         width: 100%;
-        padding-top: 150px;
+        padding-top: 110px;
     }
     .index-content{
         margin-left: 15%;
