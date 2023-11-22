@@ -6,13 +6,14 @@ body {
 }
 
 nav{
+    /*position: fixed;*/
     text-align: center; 
-    position: fixed;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     background-color: #2E7D32;
-    padding-left: 5%;
-    padding-right: 5%;
+    width: 100%;
+    /*padding-left: 5%;*/
+    /*padding-right: 5%;*/
     margin-bottom: 2%;
 }
 
