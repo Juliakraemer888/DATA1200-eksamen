@@ -36,16 +36,21 @@ nav a:hover{
 }
 
 
+main{
+    background-color: rgb(0, 90, 0); 
+}
 
 h1{
     color: beige;
     background-color: rgb(0, 90, 0);
 
 }
-.animals{
+
+#animals{
     background-color: rgb(0, 90, 0);
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: 2%;
     font-size: 20px;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;    
@@ -55,23 +60,25 @@ h1{
     box-sizing: border-box;
   }
   
-  .column {
+  .kolonne {
     float: left;
     width: 50%;
     padding: 10px;
     box-sizing: border-box;
   }
-  .column img{
+  .kolonne img{
     max-width: 50%;
     height: auto;
   }
  
-  .row {
+  
+  .rad {
     content: "";
     clear: both;
     display: table;
   }
  
+
 
 article {
     background-color: #004904;
@@ -95,13 +102,17 @@ article {
     font-size: 15px;
    text-align: right; 
 }
-.insekter{
+#insekter{
     background-color: #2E7D32;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 2%;
+    text-align: left;
 }
 
-.insekter img{
+#insekter img{
     max-width: 25%;
     height: auto auto;
     margin-right: 5px;
@@ -109,14 +120,31 @@ article {
     box-sizing: border-box;
     display: table;
 }
-.planter{
+
+#insekter h3{
+    padding-top: 2%;
+}
+
+#itemKjetil{
+    margin-top: 2%;
+}
+
+#itemKjetilOverskrift{
+    padding-bottom: 2%;
+}
+
+#itemKjetilBunn{
+    padding-top: 2%;
+}
+
+#planter{
     padding: 20px;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-
+    font-size: 20px;
 }
-.plantimg{
+
+.planteBilder{
     width: 300px;
     height: auto auto;
     margin-right: 5px;
@@ -126,10 +154,11 @@ article {
     display: table;
 }
 
-footer {
+footer{
     background-color: #2E7D32;
+    font-size: 3vw;
+    padding-top: 2.5%;
 }
-
 .footer img {
     max-width: 100%;
 }
@@ -151,8 +180,25 @@ footer2 {
 /*place shared footer above. Remember to adjust the name to avoid pathing errors*/
 
 
+#fellesFooter{
+    background-color: #2E7D32;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 13%;
+    padding-right: 8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 5%;
+    font-size: 1.5vw;
+    font-weight: normal;
+}
+
+    #footer1{
+        grid-column: span 2;
+    }
+
 /* Base code below from phind.com, but I´ts edited to make it our own/fit to our page*/
-/*all pages needing media quieries are sorted below*/
    
    /* Media queries for different screen sizes */
    @media only screen and (max-width: 768px) {
@@ -166,6 +212,13 @@ footer2 {
     nav p{
         font-size: 3vw;
     }
+    #fellesFooter {
+        margin-top: 10%;
+        grid-gap: 10%;
+    }
+    #footer1 h2{
+        font-size: 17px;
+    }
  }
  
  @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -175,6 +228,9 @@ footer2 {
     }
     nav {
         grid-template-columns: repeat(4, 1fr);
+    }
+    #fellesFooter {
+        margin-top: 13%;
     }
  }
  
