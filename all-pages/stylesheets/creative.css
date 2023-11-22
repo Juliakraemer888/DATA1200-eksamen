@@ -5,7 +5,8 @@ body {
     
 }
 
-nav{
+nav{/* the same shared nav-bar with all the pages*/
+    position: fixed;
     text-align: center; 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -46,7 +47,7 @@ h1{
 
 }
 
-#animals{
+#animals{/*the animal quote nad images*/
     background-color: rgb(0, 90, 0);
     padding-left: 10px;
     padding-right: 10px;
@@ -80,7 +81,7 @@ h1{
  
 
 
-article {
+article {/*the quote midscreen*/
     background-color: #004904;
     border: 1px solid #2E7D32;
     border-radius: 32px;
@@ -91,7 +92,7 @@ article {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
-.factbox {
+.factbox {/*the white textboxes with the red text between the different parts of the site*/
     background-color: white;
     color: rgb(220, 0, 0);
     border: 5px solid rgb(29, 120, 29);
@@ -102,7 +103,7 @@ article {
     font-size: 15px;
    text-align: right; 
 }
-#insekter{
+#insekter{/*the insect part at the bottom right above footer*/
     background-color: #2E7D32;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -126,7 +127,7 @@ article {
 }
 
 #itemKjetil{
-    margin-top: 2%;
+    margin-top: 0%;
 }
 
 #itemKjetilOverskrift{
@@ -154,7 +155,7 @@ article {
     display: table;
 }/*main end*/
 
-footer{
+footer{/*custom footer that's only for this site*/
     background-color: #2E7D32;
     font-size: 3vw;
     padding-top: 2.5%;
