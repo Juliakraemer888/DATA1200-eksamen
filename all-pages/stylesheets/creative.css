@@ -6,7 +6,6 @@ body {
 }
 
 nav{/* the same shared nav-bar with all the pages*/
-    position: fixed;
     text-align: center; 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
