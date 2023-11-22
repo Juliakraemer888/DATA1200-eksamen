@@ -50,11 +50,11 @@ nav a:hover{ /*to get the underscore line when hovering over the nav options exc
 }
 
 .index-h1 {
-    padding: 0.3rem;
-    font-size: 4rem;
+    padding: 1rem;
+    font-size: 4em;
   }
 
-  .index-h2,h3{
+.index-h2,h3{
     padding: 0,3rem;
     font-size: 2em;
   }
