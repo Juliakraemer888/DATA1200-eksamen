@@ -36,13 +36,12 @@ nav a:hover{ /*to get the underscore line when hovering over the nav options exc
     color: #A5D6A7;
 }
 
-/*index main start*/
+                                                        /*index main start*/
 #index-main{
-  /*  padding-top: 10px;*/
     font-size: 1.5rem;
 }
 
-.index-content{
+.index-content{/*the main text+list content*/
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 5%;
@@ -62,9 +61,9 @@ nav a:hover{ /*to get the underscore line when hovering over the nav options exc
 .index-p{
     padding:0.5rem;
     font-size: 0.8em;
-}/*index main ends*/ 
+}                                               /*index main ends*/ 
 
-/*Topical main start*/
+                                                                /*Topical main start*/
 #Topical{
     padding-top:150px;
     margin-left:15%;
@@ -76,7 +75,7 @@ nav a:hover{ /*to get the underscore line when hovering over the nav options exc
     box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.111)
 }
 
-#Topical img{
+#Topical img{/*the image at the bottom*/
   
     border-radius: 50px;
     margin-top: 20px;
@@ -95,9 +94,9 @@ div.picture-text{
 
 #Topical h2,h3,h4{
     font-size: 1rem;
-}/*Topical main end*/
+}                                               /*Topical main end*/
 
-/*accessibility main start*/
+                                                            /*accessibility main start*/
 #accessibility{
     padding-top: 150px;
     margin-left: 10%;
@@ -114,9 +113,9 @@ div.picture-text{
     display:block;
     margin-left:auto;
     margin-right:auto;
-}/*accessability main end*/
+}                                       /*accessability main end*/
 
-/*Cafeteria main*/
+                                                            /*Cafeteria main*/
 #cafeteria{
     padding-top: 100px;
     margin-left: 9%;
@@ -131,7 +130,7 @@ div.picture-text{
 }
 
 
-#box1{
+#box1{/*left side box*/
     margin-right: 5%;
 }
 
@@ -155,7 +154,7 @@ div.picture-text{
         margin-bottom: 5%;
     }
 
-#box2{
+#box2{/*right side box*/
     margin-top: 15%;
     margin-bottom: 15%;
     display: grid;
@@ -163,7 +162,7 @@ div.picture-text{
     grid-gap: 5%;
 }
 
-    .menu{
+    .menu{/*all menu stuff*/
         border: solid;
         border-radius: 15px;
         display: grid;
@@ -184,7 +183,7 @@ div.picture-text{
     .menu p{
         margin-left: 20%;
         margin-right: 5%;
-    }/*cafeteria main end*/
+    }                                                       /*cafeteria main end*/
 
 /*Shared footer for all pages*/
 footer{
